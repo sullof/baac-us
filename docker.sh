@@ -2,7 +2,7 @@ docker stop baac-us
 docker rm baac-us
 
 docker run --name baac-us \
-  -p 8040 \
+  -p 8044 \
   --restart unless-stopped \
   -e VIRTUAL_HOST=baac.us,www.baac.us \
   -e LETSENCRYPT_HOST=baac.us,www.baac.us \
