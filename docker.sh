@@ -7,6 +7,6 @@ docker run --name baac-us \
   -e VIRTUAL_HOST=baac.us,www.baac.us \
   -e LETSENCRYPT_HOST=baac.us,www.baac.us \
   -e LETSENCRYPT_EMAIL=francesco@sullo.co \
-  -v `pwd`/baac.us/html:/usr/share/nginx/html:ro \
+  -v `pwd`/html:/usr/share/nginx/html:ro \
   -v `pwd`/nginx.conf:/etc/nginx/conf.d/default.conf:ro \
   -d nginx
