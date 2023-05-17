@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.content {
+    text-align: center;
+}
+
+.logo {
+    width: 30%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.description {
+    font-size: 18px;
+    color: #333;
+    margin: 20px 0;
+    padding: 0 100px;
+}
+
+.discord-link {
+    display: inline-block;
+    font-size: 24px;
+    color: #5865F2; /* You can change this color to fit your design */
+    margin-top: 20px;
+    transition: color 0.3s ease;
+}
+
+.discord-link:hover {
+    color: #4e5ee1; /* You can change this color to fit your design */
+}
+
+.discord-link svg {
+    width: 30px;
+}
+
+@media (max-width: 640px) {
+    .logo {
+        width: 80%;
+    }
+
+    .description {
+        padding: 0 20px;
+    }
+}
+

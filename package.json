@@ -1,0 +1,16 @@
+{
+  "name": "baac-us",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cd html && httpserver -p 8080"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "httpserver": "^0.3.0"
+  }
+}
